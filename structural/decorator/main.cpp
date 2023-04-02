@@ -1,4 +1,5 @@
 #include <iostream>
+
 #define MILKTEA_COST 5;
 #define BLACKSUGER_COST 2
 #define BUBLLE_COST 2
@@ -12,7 +13,6 @@ public:
     // IMilktea();
     virtual double cost() = 0;
 };
-
 
 class Milktea : public IMilktea {
 public:
